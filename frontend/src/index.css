@@ -1,3 +1,9 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+:root {
+  --sidebar-width-icon: 2rem;
+  --spacing-4: 1rem;
+}
