@@ -4,6 +4,7 @@
 
 
 :root {
+ --sidebar-width: 16rem;
   --sidebar-width-icon: 2rem;
   --spacing-4: 1rem;
 }

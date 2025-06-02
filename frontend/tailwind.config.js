@@ -4,6 +4,10 @@ module.exports = {
   ],
    theme: {
     extend: {
+       spacing: {
+        'sidebar-icon': '2rem', 
+        'custom-spacing': '1rem',
+      },
       colors: {
         "gaming-purple": "#8b5cf6",
         "gaming-dark": "#1e1e2e",
