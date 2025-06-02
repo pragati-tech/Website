@@ -1,0 +1,23 @@
+{
+  "files": [],
+  "references": [
+    { "path": "./tsconfig.app.json" },
+    { "path": "./tsconfig.node.json" }
+  ],
+  "compilerOptions": {
+    "jsx": "react-jsx",
+    "baseUrl": "src",
+    "paths": {
+      "@/*": ["*"]
+    },
+    "noImplicitAny": false,
+    "noUnusedParameters": false,
+    "skipLibCheck": true,
+    "allowJs": true,
+    "noUnusedLocals": false,
+    "strictNullChecks": false,    // ✅ Enables JSX for React
+    "module": "ESNext",          // ✅ Modern module support
+    "target": "ES6",             // ✅ Supports latest JS features
+    "lib": ["DOM", "ESNext"]     // ✅ Required for browser + ES APIs
+  }
+}
